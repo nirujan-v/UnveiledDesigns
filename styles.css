@@ -8,6 +8,12 @@
     background-color: #24252a
 }
 
+h1{
+    font-size: 34px;
+    font-family: "Montserrat",  sans-serif;
+
+}
+
 /* Basic body styles */
 
 li, a {
@@ -19,7 +25,7 @@ li, a {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat",  sans-serif;
     line-height: 1.6;
     color: #333;
     padding: 20px;
@@ -49,7 +55,7 @@ header {
 }
 
 .nav_links li a:hover{
-    color: #0088a9
+    color: #e0ae07;
 }
 
 header h1 {
@@ -83,6 +89,20 @@ footer{
     background-image: url("uhd_30fps.mp4");
 }
 
+.about-container{
+    display: flex;
+
+}
+
+.about-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+    padding: 50px;
+}
+
 .tag{
     color: white;
     font-family: "Montserrat",  sans-serif;
@@ -91,7 +111,7 @@ footer{
 }
 
 #about{
-    
+    color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -99,6 +119,7 @@ footer{
 }
 
 #services{
+    color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
